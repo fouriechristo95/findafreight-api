@@ -1,0 +1,26 @@
+{
+  "name": "findafreight-api",
+  "version": "1.0.0",
+  "description": "manage quotes and users",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "passport",
+    "express"
+  ],
+  "author": "Christo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.2",
+    "moment": "^2.22.2",
+    "mysql": "^2.14.1",
+    "postmark": "^1.6.1"
+  }
+}
